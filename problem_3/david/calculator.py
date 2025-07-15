@@ -20,6 +20,7 @@ if __name__ == "__main__":
         b = int(input("input number2: "))
     except:
         print("Invalid input number.")
+        exit(1)
     
     op = input("input operator: ")
     if op == '+':
