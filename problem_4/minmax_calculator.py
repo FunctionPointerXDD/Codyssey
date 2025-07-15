@@ -27,7 +27,4 @@ def main():
     print(f"Min: {min_val}, Max: {max_val}")
 
 if __name__ =="__main__":
-    try:
-        main()
-    except Exception as e:
-        print("Error:", e)
+    main()
