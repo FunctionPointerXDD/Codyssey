@@ -1,4 +1,10 @@
 
+def is_valid(tok: str) -> bool:
+    bad_input = {"nan", "-nan", "+nan", "inf", "+inf", "-inf"}
+    if tok in bad_input:
+        return False
+    return True
+
 def main():
     raw = input("numbers: ")
     tokens = raw.split()
@@ -6,7 +12,10 @@ def main():
 
     for tok in tokens:
         try:
-            nums.append(float(tok))
+            if is_valid(tok):
+                nums.append(float(tok))
+            else:
+                raise ValueError
         except ValueError:
             print("Invalid input.")
             return

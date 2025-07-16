@@ -1,4 +1,10 @@
 
+def is_valid(tok: str) -> bool:
+    bad_input = {"nan", "-nan", "+nan", "inf", "+inf", "-inf"}
+    if tok in bad_input:
+        return False
+    return True
+
 def add(a, b) -> int:
     return a + b
 
@@ -24,7 +30,11 @@ def tokenize(expr: str) -> list[str]:
     for i, tk in enumerate(tokens):
         if i % 2 == 0:
             try:
-                float(tk)
+                if is_valid(tk):
+                    float(tk)
+                else:
+                    raise ValueError
+
             except ValueError:
                 raise ValueError("Invalid input.")
         else:
