@@ -27,7 +27,7 @@ def main():
                 nums.append(float(tok))
             else:
                 raise ValueError
-        except:
+        except ValueError:
             raise ValueError("Invalid input.")
     
     sorted_nums = bubble_sort(nums)
