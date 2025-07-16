@@ -1,3 +1,4 @@
+##test
 
 def is_valid(tok: str) -> bool:
     bad_input = {"nan", "-nan", "+nan", "inf", "+inf", "-inf"}
