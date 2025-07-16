@@ -17,24 +17,28 @@ def bubble_sort(arr: list[float]) -> list[float]:
     return arr
 
 def main():
-    raw = input("numbers: ")
-    tokens = raw.split()
-    nums = []
+    try:
+        raw = input("numbers: ")
+        tokens = raw.split()
+        nums = []
 
-    for tok in tokens:
-        try:
+        for tok in tokens:
             if is_valid(tok):
                 nums.append(float(tok))
             else:
                 raise ValueError
-        except:
-            raise ValueError("Invalid input.")
-    
-    sorted_nums = bubble_sort(nums)
-    print("Sorted:", end=' ')
-    for n in sorted_nums:
-        print(n, end=' ')
-    print('')
+        if not nums:
+            raise ValueError
+        
+        sorted_nums = bubble_sort(nums)
+        print("Sorted:", end=' ')
+        for n in sorted_nums:
+            print(n, end=' ')
+        print('')
+
+    except ValueError:
+        print("Invalid input.")
+        return
 
 if __name__ =="__main__":
     main()
