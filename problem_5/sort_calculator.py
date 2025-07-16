@@ -1,4 +1,4 @@
-##test 123
+##test 1234
 
 def is_valid(tok: str) -> bool:
     bad_input = {"nan", "-nan", "+nan", "inf", "+inf", "-inf"}
@@ -27,7 +27,7 @@ def main():
                 nums.append(float(tok))
             else:
                 raise ValueError
-        except ValueError:
+        except:
             raise ValueError("Invalid input.")
     
     sorted_nums = bubble_sort(nums)
