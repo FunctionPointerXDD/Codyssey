@@ -16,7 +16,7 @@ def multiply(a, b) -> int:
 
 def divide(a, b) -> float:
     if b == 0:
-        raise ZeroDivisionError("Division by zero.")
+        raise ZeroDivisionError
     return a / b
 
 def tokenize(expr: str) -> list[str]:
@@ -24,6 +24,7 @@ def tokenize(expr: str) -> list[str]:
     ops = ['+', '-', '*', '/']
     n = len(tokens)
 
+    ## Exception handling ##
     if n < 3 or n % 2 == 0:
         raise ValueError("Invalid input.")
 
@@ -91,17 +92,20 @@ def eval_postfix(postfix: list[str]) -> float:
 
 def main():
     while True:
-        expr = input("calc: ")
-        if expr == "exit":
-            break
-
         try:
+            expr = input("calc: ")
+            if expr == "exit":
+                break
+
             tokens = tokenize(expr)
             postfix = to_postfix(tokens)
             res =  eval_postfix(postfix)
             print(res)
-        except Exception as e:
-            print("Error:", e)
+
+        except ValueError:
+            print("Invalid input.")
+        except ZeroDivisionError:
+            print("Division by zero.")
         
 if __name__ == "__main__":
     main()
