@@ -36,7 +36,6 @@ def main():
             raise ValueError('')
 
     except ValueError:
-        
         print("Invalid input number.")
         exit(1)
 

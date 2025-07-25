@@ -1,0 +1,83 @@
+16:45:16.448696 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [S], seq 3256291611, win 64240, options [mss 1460,sackOK,TS val 2064633127 ecr 0,nop,wscale 7], length 0
+16:45:16.481452 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [S.], seq 783742765, ack 3256291612, win 65535, options [mss 1386,sackOK,TS val 741431721 ecr 2064633127,nop,wscale 8], length 0
+16:45:16.481583 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 1, win 502, options [nop,nop,TS val 2064633160 ecr 741431721], length 0
+16:45:16.482752 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 2064633161 ecr 741431721], length 517
+16:45:16.513852 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [.], ack 518, win 1048, options [nop,nop,TS val 741431756 ecr 2064633161], length 0
+16:45:16.552316 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 1:2749, ack 518, win 1050, options [nop,nop,TS val 741431794 ecr 2064633161], length 2748
+16:45:16.552392 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 2749, win 545, options [nop,nop,TS val 2064633231 ecr 741431794], length 0
+16:45:16.566608 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 2749:5338, ack 518, win 1050, options [nop,nop,TS val 741431794 ecr 2064633161], length 2589
+16:45:16.566657 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 5338, win 586, options [nop,nop,TS val 2064633245 ecr 741431794], length 0
+16:45:16.569541 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [P.], seq 518:598, ack 5338, win 586, options [nop,nop,TS val 2064633248 ecr 741431794], length 80
+16:45:16.569811 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [P.], seq 598:981, ack 5338, win 586, options [nop,nop,TS val 2064633248 ecr 741431794], length 383
+16:45:16.569999 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [P.], seq 981:1151, ack 5338, win 586, options [nop,nop,TS val 2064633248 ecr 741431794], length 170
+16:45:16.601838 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [.], ack 1151, win 1048, options [nop,nop,TS val 741431845 ecr 2064633248], length 0
+16:45:16.701313 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [.], seq 5338:6712, ack 1151, win 1050, options [nop,nop,TS val 741431947 ecr 2064633248], length 1374
+16:45:16.701972 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 6712:7474, ack 1151, win 1050, options [nop,nop,TS val 741431947 ecr 2064633248], length 762
+16:45:16.701973 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 7474:9012, ack 1151, win 1050, options [nop,nop,TS val 741431947 ecr 2064633248], length 1538
+16:45:16.701973 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 9012:11760, ack 1151, win 1050, options [nop,nop,TS val 741431947 ecr 2064633248], length 2748
+16:45:16.702009 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 7474, win 629, options [nop,nop,TS val 2064633380 ecr 741431947], length 0
+16:45:16.702056 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 11760, win 635, options [nop,nop,TS val 2064633381 ecr 741431947], length 0
+16:45:16.704397 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 11760:14508, ack 1151, win 1050, options [nop,nop,TS val 741431950 ecr 2064633248], length 2748
+16:45:16.704398 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [.], seq 14508:15882, ack 1151, win 1050, options [nop,nop,TS val 741431952 ecr 2064633248], length 1374
+16:45:16.704441 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 14508, win 677, options [nop,nop,TS val 2064633383 ecr 741431950], length 0
+16:45:16.708132 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 15882:17256, ack 1151, win 1050, options [nop,nop,TS val 741431952 ecr 2064633248], length 1374
+16:45:16.708133 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [.], seq 17256:18630, ack 1151, win 1050, options [nop,nop,TS val 741431955 ecr 2064633248], length 1374
+16:45:16.708169 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 17256, win 697, options [nop,nop,TS val 2064633387 ecr 741431952], length 0
+16:45:16.710598 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 18630:20004, ack 1151, win 1050, options [nop,nop,TS val 741431955 ecr 2064633248], length 1374
+16:45:16.710599 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [.], seq 20004:21378, ack 1151, win 1050, options [nop,nop,TS val 741431957 ecr 2064633248], length 1374
+16:45:16.710654 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 20004, win 697, options [nop,nop,TS val 2064633389 ecr 741431955], length 0
+16:45:16.718773 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 21378:22752, ack 1151, win 1050, options [nop,nop,TS val 741431957 ecr 2064633248], length 1374
+16:45:16.718820 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 22752, win 697, options [nop,nop,TS val 2064633397 ecr 741431957], length 0
+16:45:16.732134 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 22752:25500, ack 1151, win 1050, options [nop,nop,TS val 741431979 ecr 2064633380], length 2748
+16:45:16.732134 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [.], seq 25500:26874, ack 1151, win 1050, options [nop,nop,TS val 741431980 ecr 2064633380], length 1374
+16:45:16.732219 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 26874, win 697, options [nop,nop,TS val 2064633411 ecr 741431979], length 0
+16:45:16.733654 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 26874:28248, ack 1151, win 1050, options [nop,nop,TS val 741431980 ecr 2064633380], length 1374
+16:45:16.735039 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [.], seq 28248:29622, ack 1151, win 1050, options [nop,nop,TS val 741431983 ecr 2064633381], length 1374
+16:45:16.735061 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 29622, win 740, options [nop,nop,TS val 2064633414 ecr 741431980], length 0
+16:45:16.738236 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 29622:30996, ack 1151, win 1050, options [nop,nop,TS val 741431983 ecr 2064633381], length 1374
+16:45:16.738237 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [P.], seq 30996:31578, ack 1151, win 1050, options [nop,nop,TS val 741431985 ecr 2064633383], length 582
+16:45:16.738288 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 31578, win 783, options [nop,nop,TS val 2064633417 ecr 741431983], length 0
+16:45:16.738656 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [F.], seq 1151, ack 31578, win 783, options [nop,nop,TS val 2064633417 ecr 741431983], length 0
+16:45:16.768921 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47480: Flags [F.], seq 31578, ack 1152, win 1050, options [nop,nop,TS val 741432017 ecr 2064633417], length 0
+16:45:16.768968 IP 172.20.129.107.47480 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 31579, win 783, options [nop,nop,TS val 2064633447 ecr 741432017], length 0
+16:45:16.856993 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [S], seq 3469691872, win 64240, options [mss 1460,sackOK,TS val 2064633535 ecr 0,nop,wscale 7], length 0
+16:45:16.893220 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [S.], seq 1608256677, ack 3469691873, win 65535, options [mss 1386,sackOK,TS val 1310240928 ecr 2064633535,nop,wscale 8], length 0
+16:45:16.893283 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 1, win 502, options [nop,nop,TS val 2064633572 ecr 1310240928], length 0
+16:45:16.894348 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 2064633573 ecr 1310240928], length 517
+16:45:16.930653 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [.], ack 518, win 1048, options [nop,nop,TS val 1310240966 ecr 2064633573], length 0
+16:45:16.964438 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 1:2749, ack 518, win 1050, options [nop,nop,TS val 1310241001 ecr 2064633573], length 2748
+16:45:16.964530 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 2749, win 545, options [nop,nop,TS val 2064633643 ecr 1310241001], length 0
+16:45:16.976328 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 2749:5338, ack 518, win 1050, options [nop,nop,TS val 1310241001 ecr 2064633573], length 2589
+16:45:16.976413 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 5338, win 586, options [nop,nop,TS val 2064633655 ecr 1310241001], length 0
+16:45:16.978966 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [P.], seq 518:598, ack 5338, win 586, options [nop,nop,TS val 2064633657 ecr 1310241001], length 80
+16:45:16.979264 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [P.], seq 598:981, ack 5338, win 586, options [nop,nop,TS val 2064633658 ecr 1310241001], length 383
+16:45:16.979460 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [P.], seq 981:1151, ack 5338, win 586, options [nop,nop,TS val 2064633658 ecr 1310241001], length 170
+16:45:17.026431 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [.], ack 1151, win 1048, options [nop,nop,TS val 1310241053 ecr 2064633657], length 0
+16:45:17.107460 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [.], seq 5338:6712, ack 1151, win 1050, options [nop,nop,TS val 1310241148 ecr 2064633657], length 1374
+16:45:17.110785 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 6712:7474, ack 1151, win 1050, options [nop,nop,TS val 1310241148 ecr 2064633657], length 762
+16:45:17.110787 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 7474:9012, ack 1151, win 1050, options [nop,nop,TS val 1310241148 ecr 2064633657], length 1538
+16:45:17.110788 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 9012:11760, ack 1151, win 1050, options [nop,nop,TS val 1310241148 ecr 2064633657], length 2748
+16:45:17.110789 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [.], seq 11760:13134, ack 1151, win 1050, options [nop,nop,TS val 1310241150 ecr 2064633657], length 1374
+16:45:17.110840 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 7474, win 629, options [nop,nop,TS val 2064633789 ecr 1310241148], length 0
+16:45:17.110853 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 9012, win 653, options [nop,nop,TS val 2064633789 ecr 1310241148], length 0
+16:45:17.111835 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 13134, win 653, options [nop,nop,TS val 2064633790 ecr 1310241148], length 0
+16:45:17.112634 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 13134:14508, ack 1151, win 1050, options [nop,nop,TS val 1310241150 ecr 2064633657], length 1374
+16:45:17.112635 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 15882:17256, ack 1151, win 1050, options [nop,nop,TS val 1310241153 ecr 2064633657], length 1374
+16:45:17.112669 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 14508, win 686, options [nop,nop,TS val 2064633791 ecr 1310241150,nop,nop,sack 1 {15882:17256}], length 0
+16:45:17.114053 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [.], seq 14508:15882, ack 1151, win 1050, options [nop,nop,TS val 1310241153 ecr 2064633657], length 1374
+16:45:17.114080 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 17256, win 687, options [nop,nop,TS val 2064633793 ecr 1310241153], length 0
+16:45:17.116500 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [.], seq 17256:18630, ack 1151, win 1050, options [nop,nop,TS val 1310241156 ecr 2064633657], length 1374
+16:45:17.120416 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 18630:20004, ack 1151, win 1050, options [nop,nop,TS val 1310241156 ecr 2064633657], length 1374
+16:45:17.120416 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [.], seq 20004:21378, ack 1151, win 1050, options [nop,nop,TS val 1310241158 ecr 2064633657], length 1374
+16:45:17.120448 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 20004, win 697, options [nop,nop,TS val 2064633799 ecr 1310241156], length 0
+16:45:17.129197 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 21378:22752, ack 1151, win 1050, options [nop,nop,TS val 1310241158 ecr 2064633657], length 1374
+16:45:17.129274 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 22752, win 697, options [nop,nop,TS val 2064633808 ecr 1310241158], length 0
+16:45:17.153152 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 22752:25500, ack 1151, win 1050, options [nop,nop,TS val 1310241187 ecr 2064633789], length 2748
+16:45:17.153154 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 25500:28248, ack 1151, win 1050, options [nop,nop,TS val 1310241189 ecr 2064633789], length 2748
+16:45:17.153155 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 28248:30996, ack 1151, win 1050, options [nop,nop,TS val 1310241191 ecr 2064633789], length 2748
+16:45:17.153156 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [P.], seq 30996:31578, ack 1151, win 1050, options [nop,nop,TS val 1310241194 ecr 2064633793], length 582
+16:45:17.153294 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 31578, win 697, options [nop,nop,TS val 2064633832 ecr 1310241187], length 0
+16:45:17.154149 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [F.], seq 1151, ack 31578, win 697, options [nop,nop,TS val 2064633833 ecr 1310241187], length 0
+16:45:17.191165 IP kix07s06-in-f14.1e100.net.https > 172.20.129.107.47494: Flags [F.], seq 31578, ack 1152, win 1050, options [nop,nop,TS val 1310241232 ecr 2064633833], length 0
+16:45:17.191203 IP 172.20.129.107.47494 > kix07s06-in-f14.1e100.net.https: Flags [.], ack 31579, win 697, options [nop,nop,TS val 2064633870 ecr 1310241232], length 0
+
